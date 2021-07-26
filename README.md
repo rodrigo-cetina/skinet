@@ -56,11 +56,32 @@
 
 `dotnet ef database update`
 
+`dotnet ef database drop -p Infrastructure -s API`
+
+`dotnet ef migrations remove -p Infrastructure -s API`
+
+`dotnet ef migrations add InitialCreate -p Infrastructure -s API -o Data/Migrations`
+
 ## Git
 
 `git init`
 
-create file .gitignore
+create file .gitignore and add:
+
+```.gitignore
+obj
+bin
+appsettings.json
+*.db
+```
+
+`git add .`
+
+`git commit -m "Initial Commit"`
+
+`git remote add origin https://github.com/rodrigo-cetina/skinet.git`
+
+`git push -u origin master`
 
 ## Extensions VSCode
 
