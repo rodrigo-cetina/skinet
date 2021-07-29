@@ -62,6 +62,10 @@
 
 `dotnet ef migrations add InitialCreate -p Infrastructure -s API -o Data/Migrations`
 
+## NuGet Packages
+
+`AutoMapper.Extensions.Microsoft.DependencyInjection`
+
 ## Git
 
 `git init`
