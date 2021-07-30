@@ -1,4 +1,4 @@
-# Installation
+# Installation NetCore
 
 ## Create a solution
 
@@ -93,3 +93,35 @@ appsettings.json
 - C# Extensions
 - NuGet Package Manager
 - NuGet Gallery
+
+# Installation Angular
+
+## Installation CLI
+
+`npm install -g @angular/cli`
+
+## Create Project
+
+`ng new client`
+
+## Run the angular project
+
+`cd client`
+
+`ng serve`
+
+## Configuration SSL
+
+- Open file angular.json
+- Add within the node projects/architect/serve:
+
+```
+"options": {
+    "browserTarget": "client:build",
+    "sslKey": "ssl/server.key",
+    "sslCert": "ssl/server.crt",
+    "ssl": true
+}
+```
+
+`cd client`
