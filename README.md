@@ -93,6 +93,8 @@ appsettings.json
 - C# Extensions
 - NuGet Package Manager
 - NuGet Gallery
+- Angular Language Service
+- Angular Snippets (Version 12)
 
 # Installation Angular
 
@@ -110,6 +112,12 @@ appsettings.json
 
 `ng serve`
 
+## Commands Angular
+
+Root folder: src/app
+
+`ng g c nav-bar --skip-tests`
+
 ## Configuration SSL
 
 - Open file angular.json
@@ -123,5 +131,3 @@ appsettings.json
     "ssl": true
 }
 ```
-
-`cd client`
