@@ -121,6 +121,7 @@ Root folder: src/app
 `ng g c shop/shop --flat --skip-tests`
 `ng g s shop/shop --flat --skip-tests`
 `ng g m shop/shop-routing --flat`
+`ng g interceptor error --skip-tests`
 
 ## Configuration SSL
 
@@ -135,3 +136,7 @@ Root folder: src/app
     "ssl": true
 }
 ```
+
+## Npm Packages
+
+`npm install ngx-toastr`

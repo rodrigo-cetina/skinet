@@ -22,7 +22,6 @@ export class ProductDetailsComponent implements OnInit {
     this.shopService.getProduct(+id)
       .subscribe(product => {
         this.product  = product;
-        console.log(this.product);
       }, error => {
         console.log(error);
       });
