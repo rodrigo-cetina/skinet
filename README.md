@@ -117,6 +117,10 @@ appsettings.json
 Root folder: src/app
 
 `ng g c nav-bar --skip-tests`
+`ng g m shop`
+`ng g c shop/shop --flat --skip-tests`
+`ng g s shop/shop --flat --skip-tests`
+`ng g m shop/shop-routing --flat`
 
 ## Configuration SSL
 
