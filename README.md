@@ -66,6 +66,8 @@
 
 `AutoMapper.Extensions.Microsoft.DependencyInjection`
 
+`StackExchange.Redis`
+
 ## Git
 
 `git init`
@@ -146,3 +148,7 @@ Root folder: src/app
 `npm install bootswatch`
 
 `npm install ngx-spinner`
+
+## Commands Docker
+
+`docker-compose up --detach`
