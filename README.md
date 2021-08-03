@@ -140,3 +140,9 @@ Root folder: src/app
 ## Npm Packages
 
 `npm install ngx-toastr`
+
+`npm install --save xng-breadcrumb`
+
+`npm install bootswatch`
+
+`npm install ngx-spinner`
