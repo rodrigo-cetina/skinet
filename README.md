@@ -149,6 +149,10 @@ Root folder: src/app
 
 `npm install ngx-spinner`
 
+`npm install uuid`
+
+`npm i --save-dev @types/uuid`
+
 ## Commands Docker
 
 `docker-compose up --detach`
